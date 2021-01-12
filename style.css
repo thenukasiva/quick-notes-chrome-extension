@@ -1,0 +1,92 @@
+button {
+    cursor: pointer;
+    margin-top: 12px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 2px 9px;
+    transition: 0.2s ease;
+    outline: none !important;
+    background:#bcb9bd;
+    color:#fff;
+  }
+  
+button:hover {
+    background:#fff;
+    color:#bcb9bd;
+  }
+
+#draw-button {
+    cursor: pointer;
+    margin-top: 12px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 2px 9px;
+    transition: 0.2s ease;
+    outline: none !important;
+    background:#bcb9bd;
+    color:#fff;
+}
+#draw-button:hover {
+    background:#fff;
+    color:#bcb9bd;
+}
+
+
+body {
+    margin: 10px 15px 10px 15px;
+    white-space: nowrap;
+}
+
+h1 {
+    font-size: 15px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#container div {
+    margin: 0px 4px;
+}
+
+ul {
+    margin: 0em;
+    padding: 0em;
+}
+li {
+    height: 12px;
+    width: 12px;
+    border-radius: 15px;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.active {
+    border: 2px solid #607d8b !important;
+}
+
+label {
+    display: block;
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 11px;
+}
+
+input[type="range"] {
+    width: 100px;
+    outline: none;
+    margin: 0 10px;
+    cursor: pointer;
+    display: block;
+    padding-top: 1px;
+}
+
+input[type="range"]:focus {
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    outline: none;
+}
+
