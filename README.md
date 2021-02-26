@@ -1,5 +1,5 @@
 # quick-notes-chrome-extension
-📝A chrome extension to write notes on stickies and draw on webpages while studying
+📝A chrome extension to write notes on sticky notes and draw on webpages while studying
 
 Made using HTML, CSS and Javascript. First time working with Chrome Extensions!
 
